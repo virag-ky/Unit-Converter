@@ -28,7 +28,9 @@ class Conversion {
 
 numberInput.addEventListener("keypress", (e) => {
   if (e.key === "Enter") {
-    userChoice = new Conversion(numberInput.value);
+    userChoice = new Conversion(
+      Number(numberInput.value.toString().substring(0, 5))
+    );
     userChoice.convert();
   }
 });
