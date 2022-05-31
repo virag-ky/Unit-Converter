@@ -58,3 +58,26 @@ input[type=number] {
   align-items: center;
   gap: 50px;
 }
+
+.converted-container {
+  background: #fff;
+  padding: 50px 0;
+}
+
+.unit-conversion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+p {
+  color: rgb(85, 84, 84);
+}
