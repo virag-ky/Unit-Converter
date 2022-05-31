@@ -81,3 +81,36 @@ h2 {
 p {
   color: rgb(85, 84, 84);
 }
+
+@media (max-width: 600px) {
+  body {
+    height: auto;
+    padding: 50px 0;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  input {
+    font-size: 5rem;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .input-container {
+    padding: 50px 0;
+  }
+
+  h2 {
+  font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+    text-align: center;
+    width: 95%;
+  }
+}
